@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>TASK 4</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td><input type="text" id="id" /></td>
+        <td><input type="text" id="name" /></td>
+        <td><input type="text" id="age" /></td>
+        <td>
+          <select name="gender" id="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option>
+          </select>
+        </td>
+        <td><input type="button" id="button" value="Add" /></td>
+      </tr>
+    </table>
+    <h3>Employee Details</h3>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+      </tr>
+      <tbody id="employee"></tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>

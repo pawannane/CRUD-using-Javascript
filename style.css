@@ -1,0 +1,35 @@
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+body {
+  background-image: url(/purple_color_flow.jpg);
+  color: whitesmoke;
+}
+
+table,
+th,
+td {
+  border: 0.8px solid;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+table {
+  margin-top: 50px;
+  overflow-x: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  padding: 4px;
+}
+
+td {
+  /* text-align: center; */
+  padding: 6px;
+  height: 30px;
+  vertical-align: bottom;
+}
